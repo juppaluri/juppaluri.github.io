@@ -6,19 +6,12 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Jayanth Uppaluri**
 
-School
+Harvard Kennedy School
 
-College
+E-mail: [jayanth_uppaluri@g.harvard.edu](mailto:jayanth_uppaluri@g.harvard.edu)
 
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
-
+X: [@jvuppaluri](https://x.com/jvuppaluri)
 
 </center>

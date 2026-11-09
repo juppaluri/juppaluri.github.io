@@ -1,100 +1,42 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Jayanth Uppaluri"
+description-meta: "Jayanth Uppaluri: PhD candidate in Public Policy (Politics and Institutions) at Harvard Kennedy School"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
   id: hero-heading
   template: trestles
+  image: files/images/profile.jpg
+  image-alt: "Jayanth Uppaluri in front of the Brandenburg Gate"
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+      href: mailto:jayanth_uppaluri@g.harvard.edu
+    - text: "{{< fa brands x-twitter >}} X"
+      href: https://x.com/jvuppaluri
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+    - icon: file-earmark-person
+      text: CV
+      href: files/Uppaluri_CV.pdf
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+I am a first year PhD student at the Harvard Kennedy School in Public Policy, focusing on politics and institutions. I am a behavioralist focused on the United States, and my research has mainly focused on the political behavior of identity (broadly construed). This has taken the form of research on disability political identity, rural political identity and race and ethnic politics. I am also interested in the political geography of elections and how geography plays a role in our politics.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+Before my PhD, I graduated in 2024 from Dartmouth College with majors in Government and Music, and I spent the 2025-2026 year on a [US/UK Fulbright Grant](https://fulbright.org.uk/people-search/jayanth-uppaluri/), obtaining a MSc in Political Science at the University of Leeds.
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
-
-Check [Quarto Academic Website Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html) and [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+Outside the classroom, you can find me doing something [musical](music.qmd), cooking, or watching a baseball (go Cards!), hockey (go Blues!), tennis (go Americans!), or soccer (up the Toffees!) game.
 
 ## Experience
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
-
-## Education
-
-- PhD, Univerisity
-- Master, Univerisity
-- Bachelor, Univerisity
+- Social Science Post-Baccalaureate Scholar / Pre-Doctoral Assistant, Dartmouth College, 2024-2025
+- Legal Intern, Elder and Disabled Care Unit, Middlesex County District Attorney's Office, 2023
+- Legislative Intern, Office of U.S. Senator Jeanne Shaheen, 2022
+- First Year Fellow and Research Intern, National Disability Institute and Nelson A. Rockefeller Center for Public Policy, 2021
 
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>
